@@ -2,9 +2,193 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 794e52b0-48ac-4476-a221-597be743d898)
+	(uuid "794e52b0-48ac-4476-a221-597be743d898")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 49.53 30.48)
+		(size 83.82 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "8b6214c5-3aae-496d-ad7a-cdfbdf29ab69")
+		(property "Sheetname" "MCU"
+			(at 49.53 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 49.53 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SuperNicePCB"
+				(path "/794e52b0-48ac-4476-a221-597be743d898"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 101.6)
+		(size 83.82 62.23)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "abc8e950-f03a-4f32-bd7d-10de9bc33d62")
+		(property "Sheetname" "HumanSesors"
+			(at 156.21 100.8884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HumanSensors.kicad_sch"
+			(at 156.21 164.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SuperNicePCB"
+				(path "/794e52b0-48ac-4476-a221-597be743d898"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 30.48)
+		(size 85.09 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "df5ae8a1-734c-498d-8b76-baff75009c73")
+		(property "Sheetname" "Power"
+			(at 156.21 29.7684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 156.21 90.7546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SuperNicePCB"
+				(path "/794e52b0-48ac-4476-a221-597be743d898"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 49.53 100.33)
+		(size 83.82 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f7354725-387d-4beb-b227-ebab880fa3d1")
+		(property "Sheetname" "UWB"
+			(at 49.53 99.6184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "UWB.kicad_sch"
+			(at 49.53 161.8746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SuperNicePCB"
+				(path "/794e52b0-48ac-4476-a221-597be743d898"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
