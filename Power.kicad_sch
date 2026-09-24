@@ -2249,7 +2249,7 @@
 		)
 	)
 	(junction
-		(at 147.32 72.39)
+		(at 165.1 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "070b2196-83dd-4b91-8cfa-f48864f13c99")
@@ -2285,7 +2285,7 @@
 		(uuid "2bb4532d-6f72-4e56-b0c3-18e8a685325b")
 	)
 	(junction
-		(at 147.32 48.26)
+		(at 165.1 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "319bbc40-db04-45b6-8f3c-c5ccf0a7c5f7")
@@ -2303,7 +2303,7 @@
 		(uuid "342b4538-19b4-4d1f-9da6-b142f746956d")
 	)
 	(junction
-		(at 132.08 48.26)
+		(at 135.89 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3b9a03cd-9c95-4c62-b96e-aaa432625cc3")
@@ -2327,7 +2327,7 @@
 		(uuid "4d241f12-87bf-434d-819f-aaaad2fd33ee")
 	)
 	(junction
-		(at 142.24 72.39)
+		(at 160.02 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e706d55-bd0e-4a62-87b0-74ef38eaba36")
@@ -2417,7 +2417,7 @@
 		(uuid "df43a426-4afd-4bd1-9448-539de44daa68")
 	)
 	(junction
-		(at 142.24 48.26)
+		(at 160.02 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8512165-05de-4825-b6fe-ef72eb4d2621")
@@ -2454,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 62.23) (xy 121.92 62.23)
+			(xy 135.89 62.23) (xy 121.92 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2564,7 +2564,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 64.77) (xy 142.24 72.39)
+			(xy 160.02 63.5) (xy 160.02 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2574,7 +2574,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 48.26) (xy 142.24 57.15)
+			(xy 160.02 48.26) (xy 160.02 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2614,7 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 58.42) (xy 132.08 62.23)
+			(xy 135.89 58.42) (xy 135.89 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2644,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 72.39) (xy 147.32 72.39)
+			(xy 121.92 72.39) (xy 182.88 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2714,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 48.26) (xy 132.08 50.8)
+			(xy 135.89 48.26) (xy 135.89 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2904,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 48.26) (xy 147.32 57.15)
+			(xy 165.1 48.26) (xy 165.1 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2974,7 +2974,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 64.77) (xy 147.32 72.39)
+			(xy 165.1 63.5) (xy 165.1 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3231,16 +3231,6 @@
 			(type default)
 		)
 		(uuid "e7b04cef-ec6a-484a-9d2e-bfc28d163cd4")
-	)
-	(wire
-		(pts
-			(xy 147.32 72.39) (xy 182.88 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e6b996-c261-44a4-a01e-381df51b1f96")
 	)
 	(wire
 		(pts
@@ -3581,7 +3571,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:CC0603MRX5R5BB226")
-		(at 147.32 60.96 270)
+		(at 165.1 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3591,7 +3581,7 @@
 		(dnp no)
 		(uuid "2cbe8409-fac1-462e-b8e7-e3ad71b1677f")
 		(property "Reference" "C5"
-			(at 150.114 59.69 90)
+			(at 167.894 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3602,7 +3592,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 150.368 62.23 90)
+			(at 168.148 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3613,7 +3603,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C109448_C0603"
-			(at 137.16 60.96 0)
+			(at 154.94 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3624,7 +3614,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407081117_YAGEO-CC0603MRX5R5BB226_C109448.pdf"
-			(at 147.447 58.674 0)
+			(at 165.227 57.404 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3635,7 +3625,7 @@
 			)
 		)
 		(property "Description" "CC0603MRX5R5BB226"
-			(at 147.32 60.96 0)
+			(at 165.1 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,7 +3636,7 @@
 			)
 		)
 		(property "LCSC" "C109448"
-			(at 147.32 60.96 0)
+			(at 165.1 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3657,7 +3647,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 147.32 60.96 0)
+			(at 165.1 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3684,7 +3674,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:22pF_(220)_±5%_25V")
-		(at 132.08 54.61 270)
+		(at 135.89 54.61 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3695,7 +3685,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a995e83-e40f-4f20-b6d2-98b23aba7fa1")
 		(property "Reference" "C2"
-			(at 135.89 53.3399 90)
+			(at 139.7 53.3399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3706,7 +3696,7 @@
 			)
 		)
 		(property "Value" "22pF"
-			(at 135.89 55.8799 90)
+			(at 139.7 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3717,7 +3707,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C76919_C0201"
-			(at 121.92 54.61 0)
+			(at 125.73 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3728,7 +3718,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/1811081513_Murata-Electronics-GRM0335C1E220JA01D_C76919.pdf"
-			(at 132.207 52.324 0)
+			(at 136.017 52.324 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3739,7 +3729,7 @@
 			)
 		)
 		(property "Description" "22pF (220) ±5% 25V"
-			(at 132.08 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3750,7 +3740,7 @@
 			)
 		)
 		(property "LCSC" "C76919"
-			(at 132.08 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3761,7 +3751,7 @@
 			)
 		)
 		(property "Manufacturer" "muRata(村田)"
-			(at 132.08 54.61 0)
+			(at 135.89 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5092,7 @@
 	)
 	(symbol
 		(lib_id "lcsc_imported:CC0603MRX5R5BB226")
-		(at 142.24 60.96 270)
+		(at 160.02 59.69 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5112,7 +5102,7 @@
 		(dnp no)
 		(uuid "f69b0ffa-80f1-46b1-a0fe-607bbb6d2d64")
 		(property "Reference" "C3"
-			(at 136.906 60.96 90)
+			(at 154.686 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5123,7 +5113,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 135.636 62.992 90)
+			(at 153.416 61.722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5134,7 +5124,7 @@
 			)
 		)
 		(property "Footprint" "lcsc_footprints:C109448_C0603"
-			(at 132.08 60.96 0)
+			(at 149.86 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5145,7 +5135,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2407081117_YAGEO-CC0603MRX5R5BB226_C109448.pdf"
-			(at 142.367 58.674 0)
+			(at 160.147 57.404 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5156,7 +5146,7 @@
 			)
 		)
 		(property "Description" "CC0603MRX5R5BB226"
-			(at 142.24 60.96 0)
+			(at 160.02 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5167,7 +5157,7 @@
 			)
 		)
 		(property "LCSC" "C109448"
-			(at 142.24 60.96 0)
+			(at 160.02 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5178,7 +5168,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
-			(at 142.24 60.96 0)
+			(at 160.02 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
