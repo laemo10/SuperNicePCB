@@ -3946,26 +3946,6 @@
 		)
 		(uuid "feac50ba-356f-464b-89be-b1d260518a84")
 	)
-	(label "Vout-Sens"
-		(at 214.63 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "075f3672-8c3c-4c8b-a7f0-a36db83cd3c3")
-	)
-	(label "Vout-Main"
-		(at 218.44 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5774513b-e628-4ba7-9fd8-c4fc0b51e89d")
-	)
 	(global_label "DATA +"
 		(shape output)
 		(at 214.63 115.57 0)
@@ -4037,7 +4017,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3 main"
 			(at 218.44 48.2599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6011,7 +5991,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "+3V3 sens"
 			(at 217.17 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
