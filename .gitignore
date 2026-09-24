@@ -1,3 +1,80 @@
+# Always track KiCad source files (safety override)
+!*.kicad_pcb
+!*.kicad_sch
+!*.kicad_pro
+!*.kicad_sym
+!*.kicad_mod
+
+# KiCad auto-save and backup files
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.kicad_pro-bak
+*.bak
+*.bak~
+*~
+\#auto_saved_files\#
+*.lck
+*.tmp
+
+# KiCad project history (local undo history, not needed in VCS)
+.history/
+
+# KiCad local settings (user-specific)
 fp-info-cache
-*-backups
-README.txt
+*.kicad_prl
+
+# KiCad ERC / DRC reports
+*.rpt
+
+# Fabrication outputs (regenerate from source)
+gerbers/
+gbr/
+*.gbr
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.gto
+*.gbo
+*.gtp
+*.gbp
+*.gm1
+*.drl
+*.drl.report
+*.pos
+*.csv
+*.xml
+
+# KiCad netlist exports
+*.net
+
+# KiCad bill of materials exports
+*.bom
+
+# KiCad 3D step exports
+*.step
+*.stp
+
+# KiCad PDF / image exports
+*.pdf
+*.svg
+*.png
+*.jpg
+
+# KiCad simulation files
+*.cir
+*.raw
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
