@@ -1587,10 +1587,6 @@
 		(uuid "861b1639-356b-432a-acfb-e241b0b99ab2")
 	)
 	(no_connect
-		(at 156.21 97.79)
-		(uuid "afe599b8-7a05-43e7-976e-7531b776086c")
-	)
-	(no_connect
 		(at 156.21 100.33)
 		(uuid "c1a92e80-085d-48aa-90fa-3741c1ef445d")
 	)
@@ -2033,6 +2029,17 @@
 			(justify left)
 		)
 		(uuid "c1139e08-6eb9-4667-ae4a-748cd30d6238")
+	)
+	(hierarchical_label "UWB_RXOK"
+		(shape input)
+		(at 156.21 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2126df5-c385-42b2-9ad0-387c74599488")
 	)
 	(hierarchical_label "UWB_CSn"
 		(shape input)
