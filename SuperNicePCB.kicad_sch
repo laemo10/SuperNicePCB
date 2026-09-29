@@ -181,6 +181,76 @@
 				(justify left top)
 			)
 		)
+		(pin "UWB_CLK" input
+			(at 133.35 109.22 0)
+			(uuid "ea64e87f-ef81-41eb-8c8f-4437df4b790b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UWB_CSn" input
+			(at 133.35 115.57 0)
+			(uuid "20bd629f-9b44-40f6-a133-fd05955d261d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UWB_IRQ" output
+			(at 133.35 120.65 0)
+			(uuid "5c7c3a67-78ce-4c58-982c-63daec4fab08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UWB_MISO" output
+			(at 133.35 125.73 0)
+			(uuid "3291236e-508d-412f-a85a-1c523b715fd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UWB_MOSI" input
+			(at 133.35 130.81 0)
+			(uuid "77089f21-75a5-4bb8-8c69-f90e61e4c0fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UWB_RSTn" bidirectional
+			(at 133.35 135.89 0)
+			(uuid "619c3173-f1da-4990-9940-5bed93ccce9e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UWB_WAKE" input
+			(at 133.35 140.97 0)
+			(uuid "0e0c4711-d238-4fdd-af08-67267868b4a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898"

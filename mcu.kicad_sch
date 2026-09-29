@@ -4317,7 +4317,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "795ce52c-07d3-43c0-864b-98afd4e5ecc9")
+			(uuid "795ce52c-07d3-43c0-864b-98afd4e5ecca")
 		)
 		(instances
 			(project "SuperNicePCB"
@@ -4632,7 +4632,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "795ce52c-07d3-43c0-864b-98afd4e5ecc9")
+			(uuid "795ce52c-07d3-43c0-864b-98afd4e5eccb")
 		)
 		(instances
 			(project "SuperNicePCB"
@@ -4711,10 +4711,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "4cb5b1ea-26c7-40b7-b012-7718095b1ce5")
+			(uuid "4cb5b1ea-26c7-40b7-b012-7718095b1ce6")
 		)
 		(pin "1"
-			(uuid "0a19733f-a19c-4eff-acf7-78e84a32fe3e")
+			(uuid "0a19733f-a19c-4eff-acf7-78e84a32fe3f")
 		)
 		(instances
 			(project "SuperNicePCB"
@@ -5034,7 +5034,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad1bd30d-75c6-4807-98d8-40bb6c8095f6")
+			(uuid "ad1bd30d-75c6-4807-98d8-40bb6c8095f7")
 		)
 		(instances
 			(project "SuperNicePCB"
