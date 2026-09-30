@@ -2706,7 +2706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "32d32465-601d-4202-b558-7379c3ff8f18")
-		(property "Reference" "GND"
+		(property "Reference" "GND1"
 			(at 115.062 96.012 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2767,7 +2767,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "GND")
+					(reference "GND1")
 					(unit 1)
 				)
 			)
