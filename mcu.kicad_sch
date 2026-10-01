@@ -1693,42 +1693,34 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "lcsc_imported:100nF_(104)_±10%_16V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "100nF (104) ±10% 16V"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "lcsc_footprints:C1525_C0402"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1738,7 +1730,18 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100nF (104) ±10% 16V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1749,7 +1752,7 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
+			(property "LCSC" "C1525"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1760,7 +1763,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor"
+			(property "Manufacturer" "SAMSUNG(三星)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1771,24 +1774,13 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
+			(symbol "100nF_(104)_±10%_16V_1_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -0.508 0) (xy -2.54 0)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1797,50 +1789,72 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -0.508 -2.032) (xy -0.508 2.032)
 					)
 					(stroke
-						(width 0.508)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
@@ -1848,20 +1862,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "lcsc_imported:10KΩ_(103)_±5%"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 2.032 0 90)
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1870,8 +1878,8 @@
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "10KΩ (103) ±5%"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1880,8 +1888,8 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
+			(property "Footprint" "lcsc_footprints:C1489_R1206"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1891,7 +1899,18 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-1206W4J0103T5E_C1489.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10KΩ (103) ±5%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1902,7 +1921,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "LCSC" "C1489"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1913,7 +1932,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1924,63 +1943,50 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
+			(symbol "10KΩ_(103)_±5%_1_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
+				(pin input line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
@@ -1988,32 +1994,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
+		(symbol "lcsc_imported:1uF_(105)_±10%_16V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Reference" "C"
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -2022,19 +2010,18 @@
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
+			(property "Value" "1uF (105) ±10% 16V"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Datasheet" ""
-				(at 0 5.08 0)
+			(property "Footprint" "lcsc_footprints:C1592_C0603"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2044,7 +2031,18 @@
 					)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209191700_Samsung-Electro-Mechanics-CL10A105KO8NNNC_C1592.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1uF (105) ±10% 16V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2055,7 +2053,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
+			(property "LCSC" "C1592"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2066,10 +2064,22 @@
 					)
 				)
 			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(property "Manufacturer" "SAMSUNG(三星)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1uF_(105)_±10%_16V_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -2080,19 +2090,8 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy -0.508 2.032) (xy -0.508 -2.032)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
 					(stroke
 						(width 0)
 						(type default)
@@ -2103,7 +2102,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 0.508 2.032) (xy 0.508 -2.032)
 					)
 					(stroke
 						(width 0)
@@ -2113,38 +2112,219 @@
 						(type none)
 					)
 				)
-				(pin passive line
-					(at -5.08 0 0)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
+				(pin input line
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lcsc_imported:22uF_(226)_±10%_10V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22uF (226) ±10% 10V"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C1859_C1206"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206X226K100NT_C1859.pdf"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "22uF (226) ±10% 10V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C1859"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "FH(风华)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "22uF_(226)_±10%_10V_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.032) (xy 0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
 							)
 						)
 					)
@@ -3046,6 +3226,257 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:HX_3X4X2_5-PA-4N_PUSH_BUTTON_SWITCH"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HX 3X4X2.5-PA-4N PUSH BUTTON SWITCH"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C55200589_SW-SMD_4P-L4_2-W3_4-P2_15-LS5_2"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "None"
+				(at -2.286 0.127 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "HX 3X4X2.5-PA-4N PUSH BUTTON SWITCH"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C55200589"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "hanxia(韩下)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HX_3X4X2_5-PA-4N_PUSH_BUTTON_SWITCH_1_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0.762)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -0.762)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.016) (xy 0.254 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy -2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -3295,16 +3726,16 @@
 		(uuid "c06271a0-7a85-4673-8083-6512de4c0e30")
 	)
 	(junction
-		(at 100.33 46.99)
+		(at 80.01 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "22bc066f-271c-488a-817f-bba228f4ac17")
+		(uuid "0f61f3d2-14a9-4952-91dc-f3f7989db5aa")
 	)
 	(junction
-		(at 92.71 34.29)
+		(at 95.25 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "683a7e2b-e3a8-4cb8-b6ad-1916cd8c1a48")
+		(uuid "556c1a7b-e7db-4f69-af9e-5eac532a5bdc")
 	)
 	(junction
 		(at 55.88 34.29)
@@ -3313,22 +3744,56 @@
 		(uuid "6d3ed1be-5c95-4e02-95fe-53a85abf6318")
 	)
 	(junction
-		(at 76.2 80.01)
+		(at 100.33 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "731d1fd2-ccfc-42ef-8864-aac460564b66")
+	)
+	(junction
+		(at 100.33 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "850451c0-e354-4361-9357-fbe054a3aa71")
+	)
+	(junction
+		(at 88.9 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85f50136-371e-4eef-a7fb-90179e21f000")
+	)
+	(junction
+		(at 73.66 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d3c60cd-b011-4a21-8d2a-209d05f153ea")
 	)
 	(junction
-		(at 92.71 76.2)
+		(at 87.63 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5a078b2-4375-4adf-9a35-325a9705ee4b")
+	)
+	(junction
+		(at 78.74 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f27a323e-9a42-4d4b-bd77-997c9df531b8")
 	)
 	(junction
 		(at 66.04 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5493186-4382-4aaa-8c9f-adfb89a0ad53")
+	)
+	(wire
+		(pts
+			(xy 66.04 52.07) (xy 66.04 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0603135c-7cd9-4f5f-808a-226dee87167a")
 	)
 	(wire
 		(pts
@@ -3339,6 +3804,16 @@
 			(type default)
 		)
 		(uuid "0629fed4-cb5a-46c5-839d-eeb049847539")
+	)
+	(wire
+		(pts
+			(xy 87.63 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f966bd-c140-4f3f-beaf-9ad45aa1fe36")
 	)
 	(wire
 		(pts
@@ -3412,6 +3887,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 73.66) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1adda4ea-6e2a-4d3e-b8cc-1f911c504ec1")
+	)
+	(wire
+		(pts
 			(xy 82.55 134.62) (xy 96.52 134.62)
 		)
 		(stroke
@@ -3462,17 +3947,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 34.29) (xy 115.57 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "259cff39-d49e-4554-8b33-f79b3574d375")
-	)
-	(wire
-		(pts
-			(xy 90.17 80.01) (xy 92.71 80.01)
+			(xy 87.63 82.55) (xy 88.9 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3512,13 +3987,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 76.2 76.2)
+			(xy 73.66 73.66) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3075f4a3-f04d-45e6-be40-ebfbdadfaafc")
+	)
+	(wire
+		(pts
+			(xy 80.01 78.74) (xy 81.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3080209c-ea53-4fa4-80a5-59039a5b9499")
 	)
 	(wire
 		(pts
@@ -3549,6 +4034,16 @@
 			(type default)
 		)
 		(uuid "353afc50-e602-4bfa-ac19-c6ce596d5bd3")
+	)
+	(wire
+		(pts
+			(xy 95.25 73.66) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "375ddaa7-6d65-4a6b-882a-a4624ea4d619")
 	)
 	(wire
 		(pts
@@ -3592,16 +4087,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 76.2) (xy 76.2 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48a9f1a8-0f38-4e1d-bfff-d3696b04c619")
-	)
-	(wire
-		(pts
 			(xy 76.2 165.1) (xy 82.55 165.1)
 		)
 		(stroke
@@ -3642,13 +4127,13 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 80.01) (xy 92.71 76.2)
+			(xy 100.33 45.72) (xy 100.33 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50cef798-5ee9-4294-9f3c-3e4fc6738bf3")
+		(uuid "518e8cbc-a7a8-4439-bda4-868c8076c3ae")
 	)
 	(wire
 		(pts
@@ -3662,13 +4147,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 46.99) (xy 115.57 46.99)
+			(xy 86.36 68.58) (xy 87.63 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5822807a-0280-43e9-801f-d0efeb7ad5f9")
+		(uuid "5680aa2a-1f85-4357-8c49-1d2295327f1d")
 	)
 	(wire
 		(pts
@@ -3732,7 +4217,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 80.01) (xy 76.2 82.55)
+			(xy 86.36 78.74) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae9fbf9-b414-4f72-8a64-bf01c761ad8f")
+	)
+	(wire
+		(pts
+			(xy 73.66 73.66) (xy 73.66 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3779,6 +4274,16 @@
 			(type default)
 		)
 		(uuid "746108f6-6785-4912-8d8b-6b5b96daf939")
+	)
+	(wire
+		(pts
+			(xy 100.33 46.99) (xy 115.57 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78b9ea58-5521-4771-bf38-129d4624ab96")
 	)
 	(wire
 		(pts
@@ -3862,13 +4367,33 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 80.01) (xy 82.55 80.01)
+			(xy 88.9 82.55) (xy 95.25 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93352b78-b5dd-4e37-9f16-ce237ad208d4")
+	)
+	(wire
+		(pts
+			(xy 73.66 82.55) (xy 78.74 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "944a2b35-7d44-43cf-9e9f-aae1a0cc6d62")
+	)
+	(wire
+		(pts
+			(xy 78.74 82.55) (xy 80.01 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94b4ba6c-a45c-4fd1-b94d-f49e9909d4d1")
 	)
 	(wire
 		(pts
@@ -3982,26 +4507,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 76.2) (xy 107.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3650963-807a-4e8f-b694-401cad12bf44")
-	)
-	(wire
-		(pts
-			(xy 92.71 34.29) (xy 92.71 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5b6d927-cafd-4f83-83c8-38f763eb9b23")
-	)
-	(wire
-		(pts
 			(xy 90.17 105.41) (xy 90.17 107.95)
 		)
 		(stroke
@@ -4052,6 +4557,26 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 73.66) (xy 80.01 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acea1b25-3a92-46c5-9978-5cbee018391d")
+	)
+	(wire
+		(pts
+			(xy 80.01 68.58) (xy 80.01 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad0a3d23-2d36-4ff5-ae60-48ad97c2fb0e")
+	)
+	(wire
+		(pts
 			(xy 242.57 50.8) (xy 242.57 54.61)
 		)
 		(stroke
@@ -4059,16 +4584,6 @@
 			(type default)
 		)
 		(uuid "af48df76-89e7-46da-b574-4c3f94e01a83")
-	)
-	(wire
-		(pts
-			(xy 100.33 40.64) (xy 100.33 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09e9e95-4dda-424b-941e-54f999ab05af")
 	)
 	(wire
 		(pts
@@ -4132,7 +4647,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 34.29) (xy 66.04 43.18)
+			(xy 66.04 34.29) (xy 66.04 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4149,16 +4664,6 @@
 			(type default)
 		)
 		(uuid "c09c3d30-e066-4a01-8ed1-616000404712")
-	)
-	(wire
-		(pts
-			(xy 66.04 50.8) (xy 66.04 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2862c1c-fb6e-4693-bec8-98f3a3b9229f")
 	)
 	(wire
 		(pts
@@ -4182,7 +4687,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 34.29) (xy 92.71 34.29)
+			(xy 66.04 34.29) (xy 100.33 34.29)
 		)
 		(stroke
 			(width 0)
@@ -4282,6 +4787,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 68.58) (xy 87.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6612888-9c53-4e0e-8deb-35373500e5e3")
+	)
+	(wire
+		(pts
+			(xy 87.63 73.66) (xy 87.63 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d69c9b30-6f9b-4fa5-9b0a-d17b7bd71cbe")
+	)
+	(wire
+		(pts
 			(xy 95.25 180.34) (xy 102.87 180.34)
 		)
 		(stroke
@@ -4322,13 +4847,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 76.2) (xy 92.71 76.2)
+			(xy 100.33 34.29) (xy 100.33 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1f83281-f67c-4def-9a40-5a6cc5972c1f")
+		(uuid "e0293002-f8c0-4ee2-bf68-814cbc15a28e")
 	)
 	(wire
 		(pts
@@ -4349,6 +4874,16 @@
 			(type default)
 		)
 		(uuid "e3f732b9-e7b3-4ec2-ae54-02dd53848835")
+	)
+	(wire
+		(pts
+			(xy 100.33 34.29) (xy 115.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e429ae2d-8d83-41f6-95e6-310220981799")
 	)
 	(wire
 		(pts
@@ -4409,6 +4944,16 @@
 			(type default)
 		)
 		(uuid "eefb9c40-2e86-4ee3-8906-c0cf75a72fdf")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 80.01 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef99c4c3-c396-4f81-a5d5-351b474c1a24")
 	)
 	(wire
 		(pts
@@ -4731,7 +5276,7 @@
 		(uuid "de00ea81-0e6a-42e4-934c-0c686452d310")
 	)
 	(label "EN"
-		(at 107.95 76.2 180)
+		(at 105.41 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5498,7 +6043,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 82.55 0)
+		(at 73.66 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5509,7 +6054,7 @@
 		(fields_autoplaced yes)
 		(uuid "19372763-492e-4a51-9be2-737a05d2d3f9")
 		(property "Reference" "#PWR07"
-			(at 76.2 88.9 0)
+			(at 73.66 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5520,7 +6065,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 87.63 0)
+			(at 73.66 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5530,7 +6075,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 82.55 0)
+			(at 73.66 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5541,7 +6086,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 82.55 0)
+			(at 73.66 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5552,7 +6097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 82.55 0)
+			(at 73.66 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5575,8 +6120,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 92.71 46.99 270)
+		(lib_id "lcsc_imported:1uF_(105)_±10%_16V")
+		(at 92.71 46.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5586,7 +6131,7 @@
 		(dnp no)
 		(uuid "3ada45f6-6fb0-4f7b-a33d-d83d78c2563f")
 		(property "Reference" "C3"
-			(at 92.202 52.324 90)
+			(at 92.71 53.086 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5596,7 +6141,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 92.456 54.864 90)
+			(at 92.456 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5605,8 +6150,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.9 47.9552 0)
+		(property "Footprint" "lcsc_footprints:C1592_C0603"
+			(at 92.71 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5616,7 +6161,18 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2209191700_Samsung-Electro-Mechanics-CL10A105KO8NNNC_C1592.pdf"
+			(at 90.424 46.863 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1uF (105) ±10% 16V"
 			(at 92.71 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5627,7 +6183,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "LCSC" "C1592"
+			(at 92.71 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 92.71 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5654,8 +6221,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 55.88 46.99 0)
+		(lib_id "lcsc_imported:22uF_(226)_±10%_10V")
+		(at 55.88 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5663,32 +6230,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "450478ff-8d9d-44ca-8556-0781b6126204")
 		(property "Reference" "C1"
-			(at 59.69 45.7199 0)
+			(at 58.42 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "22uF"
-			(at 59.69 48.2599 0)
+			(at 58.42 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 56.8452 50.8 0)
+		(property "Footprint" "lcsc_footprints:C1859_C1206"
+			(at 66.04 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5698,7 +6264,18 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_FH--Guangdong-Fenghua-Advanced-Tech-1206X226K100NT_C1859.pdf"
+			(at 55.753 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22uF (226) ±10% 10V"
 			(at 55.88 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5709,7 +6286,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "LCSC" "C1859"
+			(at 55.88 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FH(风华)"
 			(at 55.88 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5736,8 +6324,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 96.52 40.64 90)
+		(lib_id "lcsc_imported:10KΩ_(103)_±5%")
+		(at 100.33 40.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5747,7 +6335,7 @@
 		(dnp no)
 		(uuid "5ac54174-e97a-4d10-a2a8-64f014a191e0")
 		(property "Reference" "R1"
-			(at 96.52 37.338 90)
+			(at 103.632 39.116 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5756,8 +6344,8 @@
 				)
 			)
 		)
-		(property "Value" "10kOhm"
-			(at 103.124 37.338 90)
+		(property "Value" "10k"
+			(at 103.632 41.402 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5766,8 +6354,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 96.52 42.418 90)
+		(property "Footprint" "lcsc_footprints:C1489_R1206"
+			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5777,8 +6365,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 96.52 40.64 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206010230_UNI-ROYAL-Uniroyal-Elec-1206W4J0103T5E_C1489.pdf"
+			(at 100.203 42.926 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5788,8 +6376,30 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 96.52 40.64 0)
+		(property "Description" "10KΩ (103) ±5%"
+			(at 100.33 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1489"
+			(at 100.33 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 100.33 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6415,8 +7025,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 86.36 80.01 90)
+		(lib_id "lcsc_imported:100nF_(104)_±10%_16V")
+		(at 83.82 82.55 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6426,7 +7036,7 @@
 		(dnp no)
 		(uuid "77951cab-0fa4-404e-b81a-de71e683f313")
 		(property "Reference" "C4"
-			(at 86.36 84.582 90)
+			(at 83.82 85.598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6435,8 +7045,8 @@
 				)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 86.36 87.63 90)
+		(property "Value" "100nF"
+			(at 84.328 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6445,8 +7055,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 90.17 79.0448 0)
+		(property "Footprint" "lcsc_footprints:C1525_C0402"
+			(at 83.82 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6456,8 +7066,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 86.36 80.01 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 86.106 82.677 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6467,8 +7077,30 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 86.36 80.01 0)
+		(property "Description" "100nF (104) ±10% 16V"
+			(at 83.82 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 83.82 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 83.82 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6572,8 +7204,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 86.36 76.2 0)
+		(lib_id "lcsc_imported:HX_3X4X2_5-PA-4N_PUSH_BUTTON_SWITCH")
+		(at 83.82 73.66 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6581,30 +7213,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "925f9983-83e0-4a24-a640-f0f6ff63b8ef")
 		(property "Reference" "SW1"
-			(at 86.36 68.58 0)
+			(at 88.646 69.342 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Reset"
-			(at 86.36 71.12 0)
+			(at 88.646 71.882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 86.36 71.12 0)
+		(property "Footprint" "lcsc_footprints:C55200589_SW-SMD_4P-L4_2-W3_4-P2_15-LS5_2"
+			(at 73.66 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6614,8 +7247,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 86.36 71.12 0)
+		(property "Datasheet" "None"
+			(at 83.947 71.374 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6625,8 +7258,30 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 86.36 76.2 0)
+		(property "Description" "HX 3X4X2.5-PA-4N PUSH BUTTON SWITCH"
+			(at 83.82 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C55200589"
+			(at 83.82 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "hanxia(韩下)"
+			(at 83.82 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6641,6 +7296,12 @@
 		)
 		(pin "2"
 			(uuid "8f334860-77dc-4011-82b7-59621c24b1e3")
+		)
+		(pin "3"
+			(uuid "2d37f5b5-43ed-4f38-8178-848eb58c54cd")
+		)
+		(pin "4"
+			(uuid "60cf5281-c74e-47ec-92e5-52fed5a1c786")
 		)
 		(instances
 			(project "SuperNicePCB"
@@ -6809,8 +7470,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 66.04 46.99 0)
+		(lib_id "lcsc_imported:100nF_(104)_±10%_16V")
+		(at 66.04 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6818,32 +7479,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bc913209-df27-4351-b1ab-3ca36dbfd83b")
 		(property "Reference" "C2"
-			(at 69.85 45.7199 0)
+			(at 68.58 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 69.85 48.2599 0)
+		(property "Value" "100nF"
+			(at 68.58 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 67.0052 50.8 0)
+		(property "Footprint" "lcsc_footprints:C1525_C0402"
+			(at 76.2 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6853,7 +7513,18 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 65.913 49.276 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF (104) ±10% 16V"
 			(at 66.04 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6864,7 +7535,18 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "LCSC" "C1525"
+			(at 66.04 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
 			(at 66.04 46.99 0)
 			(hide yes)
 			(show_name no)
