@@ -2454,7 +2454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1333a514-a49d-4685-a537-dbac0d7e72e9")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR014"
 			(at 76.2 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2515,7 +2515,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "#PWR06")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -2533,7 +2533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1406daf5-fdab-45df-8b3a-2a646678fcbd")
-		(property "Reference" "U1"
+		(property "Reference" "U9"
 			(at 140.97 67.31 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +2683,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "U1")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -2701,7 +2701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "216b0ffe-b859-4fc0-bc38-9f1dbde7354a")
-		(property "Reference" "R2"
+		(property "Reference" "R16"
 			(at 100.33 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2785,7 +2785,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "R2")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -2803,7 +2803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25f90aec-39b4-41fb-8fe0-e778e98ed7f8")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR018"
 			(at 204.47 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2864,7 +2864,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "#PWR05")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2881,7 +2881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "26a07693-517c-4545-a953-c5af2eb19557")
-		(property "Reference" "C1"
+		(property "Reference" "C18"
 			(at 84.328 94.996 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2989,7 +2989,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "C1")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3028,7 +3028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3107,7 +3107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 111.76 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3164,7 +3164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a2580e0-9590-4c32-84a8-5b670e8d820c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR016"
 			(at 177.8 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3224,7 +3224,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "#PWR04")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3241,7 +3241,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d4efef8-c72a-45a8-9714-ba48617d533b")
-		(property "Reference" "C10"
+		(property "Reference" "C19"
 			(at 94.488 94.996 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3349,7 +3349,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "C10")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -3367,7 +3367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84943b94-8771-4f3f-a14a-bcd4995cb974")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR015"
 			(at 111.76 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -3427,7 +3427,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "#PWR03")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3445,7 +3445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af3af0f2-3e89-4a25-9487-0ad2c84b45eb")
-		(property "Reference" "R3"
+		(property "Reference" "R17"
 			(at 173.99 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3529,7 +3529,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "R3")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -3547,7 +3547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db3b0a64-1b05-42be-8b0a-de531ccf9adc")
-		(property "Reference" "C3"
+		(property "Reference" "C20"
 			(at 105.41 95.2499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3633,7 +3633,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "C3")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3651,7 +3651,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3f319ae-cdb4-40a4-a7c4-ab52ac742688")
-		(property "Reference" "R1"
+		(property "Reference" "R18"
 			(at 180.34 82.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3759,7 +3759,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "R1")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3981,7 +3981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe343533-3e19-480f-a578-ee199edd405f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR017"
 			(at 177.8 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4041,7 +4041,7 @@
 		(instances
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/f7354725-387d-4beb-b227-ebab880fa3d1"
-					(reference "#PWR01")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
