@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 1.27
+          "drill": 0.25,
+          "height": 0.4,
+          "width": 0.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -640,14 +640,50 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -690,7 +726,7 @@
         "uuid": "794e52b0-48ac-4476-a221-597be743d898"
       }
     ],
-    "used_designators": "USBC1,USBC301,U1-8,U301-302,U401-405,U501,R1-17,R301-308,R401-406,R501-503,LED1-2,LED501-502,L1,L301,C1-16,C301-309,C401-404,C501-503,3.1,3.501,J3-5,#PWR1-7,#PWR301,#PWR401,#PWR501-505,GND1,GND501",
+    "used_designators": "USBC1,USBC301,U1-8,U301-302,U401-405,U501,R1-17,R301-308,R401-406,R501-503,J3-5,LED1-2,LED501-502,C1-16,C301-309,C401-404,C501-503,L1,L301,3.1,3.501,#PWR1-7,#PWR301,#PWR401,#PWR501-505,GND1,GND501",
     "variants": []
   },
   "sheets": [
