@@ -935,7 +935,7 @@
 				(justify right)
 			)
 		)
-		(pin "R_RX0" output
+		(pin "U0_RXD" output
 			(at 245.11 87.63 0)
 			(uuid "580b8c85-ebb0-4c5b-9eba-b9cd5867f17d")
 			(effects
@@ -945,7 +945,7 @@
 				(justify right)
 			)
 		)
-		(pin "R_TXO" output
+		(pin "U0_TXD" output
 			(at 245.11 83.82 0)
 			(uuid "dfed12dc-7ff2-4f7c-a88a-58a3c7c2938e")
 			(effects

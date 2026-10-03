@@ -1796,6 +1796,12 @@
 		)
 	)
 	(junction
+		(at 167.64 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00a7bb22-143b-43a6-b97e-06041371dfc7")
+	)
+	(junction
 		(at 81.28 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1842,12 +1848,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94fcaed4-905b-42b7-8a65-63ba0ae1a0c2")
-	)
-	(junction
-		(at 168.91 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b2854398-c5f5-43a3-83c4-16a585d735fc")
 	)
 	(junction
 		(at 81.28 91.44)
@@ -1945,6 +1945,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 80.01) (xy 177.8 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16118f46-6623-4438-87d4-d2d2a92e10b9")
+	)
+	(wire
+		(pts
 			(xy 165.1 102.87) (xy 165.1 114.3)
 		)
 		(stroke
@@ -1995,7 +2005,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 80.01) (xy 168.91 80.01)
+			(xy 156.21 80.01) (xy 167.64 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2072,16 +2082,6 @@
 			(type default)
 		)
 		(uuid "4956baa3-b4d0-46de-a217-9ced6d8d7d7d")
-	)
-	(wire
-		(pts
-			(xy 168.91 80.01) (xy 177.8 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4abe7cd0-cf45-46b9-8f9e-7f5bc7f90052")
 	)
 	(wire
 		(pts
@@ -2255,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 78.74) (xy 168.91 80.01)
+			(xy 167.64 78.74) (xy 167.64 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2345,7 @@
 	)
 	(hierarchical_label "UWB_IRQ"
 		(shape output)
-		(at 168.91 78.74 0)
+		(at 167.64 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
