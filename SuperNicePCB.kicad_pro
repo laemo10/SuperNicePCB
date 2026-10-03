@@ -726,7 +726,7 @@
         "uuid": "794e52b0-48ac-4476-a221-597be743d898"
       }
     ],
-    "used_designators": "USBC1,USBC301,3.1,3.501,R1-17,R301-308,R401-406,R501-503,GND1,GND501,U1-8,U301-302,U401-405,U501,LED1-2,LED501-502,L1,L301,#PWR1-7,#PWR301,#PWR401,#PWR501-505,C1-16,C301-309,C401-404,C501-503,J3-5",
+    "used_designators": "H1-4",
     "variants": []
   },
   "sheets": [
