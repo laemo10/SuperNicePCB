@@ -2355,7 +2355,7 @@
 		(uuid "2c23b873-2fd7-427f-89da-09a15af10ed7")
 	)
 	(hierarchical_label "UWB_WAKEUP"
-		(shape input)
+		(shape output)
 		(at 125.73 77.47 180)
 		(effects
 			(font
@@ -2377,7 +2377,7 @@
 		(uuid "4a23d2e7-f7d3-4d39-a50d-b7f738587f08")
 	)
 	(hierarchical_label "UWB_RST"
-		(shape bidirectional)
+		(shape output)
 		(at 125.73 80.01 180)
 		(effects
 			(font
@@ -2388,7 +2388,7 @@
 		(uuid "6a1f2b09-d1c1-4164-b3fe-9b44232e11a1")
 	)
 	(hierarchical_label "UWB_SCK"
-		(shape input)
+		(shape output)
 		(at 156.21 85.09 0)
 		(effects
 			(font
@@ -2399,7 +2399,7 @@
 		(uuid "98793646-01bd-48a3-b1d8-bac594327e72")
 	)
 	(hierarchical_label "UWB_MOSI"
-		(shape input)
+		(shape output)
 		(at 156.21 90.17 0)
 		(effects
 			(font
@@ -2421,7 +2421,7 @@
 		(uuid "c1139e08-6eb9-4667-ae4a-748cd30d6238")
 	)
 	(hierarchical_label "UWB_RXOK"
-		(shape input)
+		(shape output)
 		(at 156.21 97.79 0)
 		(effects
 			(font
@@ -2432,7 +2432,7 @@
 		(uuid "d2126df5-c385-42b2-9ad0-387c74599488")
 	)
 	(hierarchical_label "UWB_CS0"
-		(shape input)
+		(shape output)
 		(at 156.21 92.71 0)
 		(effects
 			(font

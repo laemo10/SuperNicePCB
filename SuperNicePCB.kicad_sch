@@ -1127,9 +1127,9 @@
 				(justify left top)
 			)
 		)
-		(pin "UWB_CLK" input
-			(at 72.39 76.2 0)
-			(uuid "ea64e87f-ef81-41eb-8c8f-4437df4b790b")
+		(pin "+3.3V_Sensors" input
+			(at 57.15 72.39 90)
+			(uuid "73ef47a0-d797-4374-bf73-768275518ade")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1137,9 +1137,9 @@
 				(justify right)
 			)
 		)
-		(pin "UWB_CSn" input
+		(pin "UWB_CS0" output
 			(at 72.39 80.01 0)
-			(uuid "20bd629f-9b44-40f6-a133-fd05955d261d")
+			(uuid "7b521bb2-5ade-438d-b4b3-e9c202123dc8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,7 +1149,7 @@
 		)
 		(pin "UWB_IRQ" output
 			(at 72.39 83.82 0)
-			(uuid "5c7c3a67-78ce-4c58-982c-63daec4fab08")
+			(uuid "e51ac242-8e2a-4b27-8d1f-626273c61f21")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1159,7 @@
 		)
 		(pin "UWB_MISO" output
 			(at 72.39 87.63 0)
-			(uuid "3291236e-508d-412f-a85a-1c523b715fd7")
+			(uuid "a07044ec-f750-4a69-91b8-0aa53e80b0dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,9 +1167,9 @@
 				(justify right)
 			)
 		)
-		(pin "UWB_MOSI" input
+		(pin "UWB_MOSI" output
 			(at 72.39 91.44 0)
-			(uuid "77089f21-75a5-4bb8-8c69-f90e61e4c0fd")
+			(uuid "f55e646a-07df-4ece-b485-d50b78153c31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,9 +1177,9 @@
 				(justify right)
 			)
 		)
-		(pin "UWB_RSTn" bidirectional
+		(pin "UWB_RST" output
 			(at 72.39 102.87 0)
-			(uuid "619c3173-f1da-4990-9940-5bed93ccce9e")
+			(uuid "021aa17f-cfdf-45a5-a302-ae77aacd0a8e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1187,19 +1187,9 @@
 				(justify right)
 			)
 		)
-		(pin "UWB_WAKE" input
-			(at 72.39 99.06 0)
-			(uuid "0e0c4711-d238-4fdd-af08-67267868b4a0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "UWB_RXOK" input
+		(pin "UWB_RXOK" output
 			(at 72.39 95.25 0)
-			(uuid "7ef09599-eeda-440d-9663-803b26a5a9eb")
+			(uuid "2b34189f-5100-4ee9-a5cc-778c362e9239")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,9 +1197,19 @@
 				(justify right)
 			)
 		)
-		(pin "+3.3V_Sensors" input
-			(at 57.15 72.39 90)
-			(uuid "73ef47a0-d797-4374-bf73-768275518ade")
+		(pin "UWB_SCK" output
+			(at 72.39 76.2 0)
+			(uuid "04c8cae8-98d2-4f01-b87e-9e7f54537ad9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UWB_WAKEUP" output
+			(at 72.39 99.06 0)
+			(uuid "5da0fe1f-295f-4e27-9fdd-2749413b4c89")
 			(effects
 				(font
 					(size 1.27 1.27)

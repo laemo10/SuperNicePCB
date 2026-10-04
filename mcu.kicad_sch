@@ -5832,46 +5832,46 @@
 			)
 		)
 		(pin "6"
-			(uuid "30caeb71-1d6b-4d9a-95a6-17a4317b194a")
+			(uuid "30caeb71-1d6b-4d9a-95a6-17a4317b194b")
 		)
 		(pin "1"
-			(uuid "4ba4ee4c-f48e-41b6-b949-6c5902b170d9")
+			(uuid "4ba4ee4c-f48e-41b6-b949-6c5902b170da")
 		)
 		(pin "10"
-			(uuid "0fab87bd-206e-40a8-a25f-62bdabeb3689")
+			(uuid "0fab87bd-206e-40a8-a25f-62bdabeb368a")
 		)
 		(pin "4"
-			(uuid "5cfc30d2-09bd-4e4e-8bad-02cb16f95ad4")
+			(uuid "5cfc30d2-09bd-4e4e-8bad-02cb16f95ad5")
 		)
 		(pin "5"
-			(uuid "3fa17052-6750-40bb-bfe0-377b64b694f8")
+			(uuid "3fa17052-6750-40bb-bfe0-377b64b694f9")
 		)
 		(pin "2"
-			(uuid "13273724-aa2b-4393-8fbb-69593cc1fb00")
+			(uuid "13273724-aa2b-4393-8fbb-69593cc1fb01")
 		)
 		(pin "8"
-			(uuid "bae60ae9-8bdd-4282-9142-5f84baeeb752")
+			(uuid "bae60ae9-8bdd-4282-9142-5f84baeeb753")
 		)
 		(pin "12"
-			(uuid "e0468c6f-6afb-4d39-89cc-c0af5009bc06")
+			(uuid "e0468c6f-6afb-4d39-89cc-c0af5009bc07")
 		)
 		(pin "14"
-			(uuid "234bccf7-4345-4280-a2c0-238da12e2dd8")
+			(uuid "234bccf7-4345-4280-a2c0-238da12e2dd9")
 		)
 		(pin "13"
-			(uuid "53a5fe58-f426-4d57-89cd-aef0f9f26282")
+			(uuid "53a5fe58-f426-4d57-89cd-aef0f9f26283")
 		)
 		(pin "11"
-			(uuid "8c6d51f3-78c2-4a8f-8263-a36ebaf27008")
+			(uuid "8c6d51f3-78c2-4a8f-8263-a36ebaf27009")
 		)
 		(pin "3"
-			(uuid "543a51e7-9ef6-43d6-96ed-99e254b7a38f")
+			(uuid "543a51e7-9ef6-43d6-96ed-99e254b7a390")
 		)
 		(pin "7"
-			(uuid "bb6fcbdd-b06e-49c1-85c8-9e280470f799")
+			(uuid "bb6fcbdd-b06e-49c1-85c8-9e280470f79a")
 		)
 		(pin "9"
-			(uuid "116ffdf5-ecfe-43b9-9bf6-89e798c81433")
+			(uuid "116ffdf5-ecfe-43b9-9bf6-89e798c81434")
 		)
 		(instances
 			(project "SuperNicePCB"
@@ -6077,46 +6077,46 @@
 			)
 		)
 		(pin "6"
-			(uuid "30caeb71-1d6b-4d9a-95a6-17a4317b194a")
+			(uuid "30caeb71-1d6b-4d9a-95a6-17a4317b194c")
 		)
 		(pin "1"
-			(uuid "4ba4ee4c-f48e-41b6-b949-6c5902b170d9")
+			(uuid "4ba4ee4c-f48e-41b6-b949-6c5902b170db")
 		)
 		(pin "10"
-			(uuid "0fab87bd-206e-40a8-a25f-62bdabeb3689")
+			(uuid "0fab87bd-206e-40a8-a25f-62bdabeb368b")
 		)
 		(pin "4"
-			(uuid "5cfc30d2-09bd-4e4e-8bad-02cb16f95ad4")
+			(uuid "5cfc30d2-09bd-4e4e-8bad-02cb16f95ad6")
 		)
 		(pin "5"
-			(uuid "3fa17052-6750-40bb-bfe0-377b64b694f8")
+			(uuid "3fa17052-6750-40bb-bfe0-377b64b694fa")
 		)
 		(pin "2"
-			(uuid "13273724-aa2b-4393-8fbb-69593cc1fb00")
+			(uuid "13273724-aa2b-4393-8fbb-69593cc1fb02")
 		)
 		(pin "8"
-			(uuid "bae60ae9-8bdd-4282-9142-5f84baeeb752")
+			(uuid "bae60ae9-8bdd-4282-9142-5f84baeeb754")
 		)
 		(pin "12"
-			(uuid "e0468c6f-6afb-4d39-89cc-c0af5009bc06")
+			(uuid "e0468c6f-6afb-4d39-89cc-c0af5009bc08")
 		)
 		(pin "14"
-			(uuid "234bccf7-4345-4280-a2c0-238da12e2dd8")
+			(uuid "234bccf7-4345-4280-a2c0-238da12e2dda")
 		)
 		(pin "13"
-			(uuid "53a5fe58-f426-4d57-89cd-aef0f9f26282")
+			(uuid "53a5fe58-f426-4d57-89cd-aef0f9f26284")
 		)
 		(pin "11"
-			(uuid "8c6d51f3-78c2-4a8f-8263-a36ebaf27008")
+			(uuid "8c6d51f3-78c2-4a8f-8263-a36ebaf2700a")
 		)
 		(pin "3"
-			(uuid "543a51e7-9ef6-43d6-96ed-99e254b7a38f")
+			(uuid "543a51e7-9ef6-43d6-96ed-99e254b7a391")
 		)
 		(pin "7"
-			(uuid "bb6fcbdd-b06e-49c1-85c8-9e280470f799")
+			(uuid "bb6fcbdd-b06e-49c1-85c8-9e280470f79b")
 		)
 		(pin "9"
-			(uuid "116ffdf5-ecfe-43b9-9bf6-89e798c81433")
+			(uuid "116ffdf5-ecfe-43b9-9bf6-89e798c81435")
 		)
 		(instances
 			(project "SuperNicePCB"
