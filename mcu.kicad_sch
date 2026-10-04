@@ -3933,7 +3933,7 @@
 	)
 	(hierarchical_label "U0_TXD"
 		(shape input)
-		(at 242.57 62.23 0)
+		(at 246.38 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3988,7 +3988,7 @@
 	)
 	(hierarchical_label "U0_RXD"
 		(shape input)
-		(at 242.57 64.77 0)
+		(at 246.38 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)

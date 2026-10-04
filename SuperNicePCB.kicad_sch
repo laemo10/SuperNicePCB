@@ -689,26 +689,6 @@
 				(justify right)
 			)
 		)
-		(pin "U0_RXD" input
-			(at 166.37 121.92 0)
-			(uuid "d0ac5b98-fd7a-41c2-874b-0a8d9814bff1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "U0_TXD" input
-			(at 166.37 125.73 0)
-			(uuid "4c8f0203-066a-4708-9022-48c9dd0bc384")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "USB_D+" input
 			(at 143.51 129.54 270)
 			(uuid "876a1afd-16c6-4456-b736-a0b4ef364bf3")
@@ -817,6 +797,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "U0_RXD" input
+			(at 166.37 121.92 0)
+			(uuid "c8ccf5fc-39d6-4086-85ff-cd1b52301b4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U0_TXD" input
+			(at 166.37 125.73 0)
+			(uuid "03041b64-4794-48e3-a2f7-8a7456492633")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
