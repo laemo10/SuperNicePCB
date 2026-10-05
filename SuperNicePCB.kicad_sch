@@ -779,7 +779,7 @@
 				(justify left)
 			)
 		)
-		(pin "VDD" input
+		(pin "3V3_MCU" input
 			(at 147.32 72.39 90)
 			(uuid "00fd2823-b98e-418d-a865-516fd1bf1ee0")
 			(effects
@@ -865,7 +865,7 @@
 				(justify left top)
 			)
 		)
-		(pin "3.3V" input
+		(pin "3V3_SENS" input
 			(at 227.33 71.12 90)
 			(uuid "d08c1a5f-62be-4d27-895d-1f680272c556")
 			(effects
@@ -1041,7 +1041,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3.3V_Main" output
+		(pin "3V3_MCU" output
 			(at 135.89 50.8 270)
 			(uuid "2eb11008-e1b8-427f-a679-85a196df0d5b")
 			(effects
@@ -1051,7 +1051,7 @@
 				(justify left)
 			)
 		)
-		(pin "+3.3V_Sensors" output
+		(pin "3V3_SENS" output
 			(at 140.97 50.8 270)
 			(uuid "f21b6c98-ff9f-40c9-b904-c261d846a1d8")
 			(effects
@@ -1127,7 +1127,7 @@
 				(justify left top)
 			)
 		)
-		(pin "+3.3V_Sensors" input
+		(pin "3V3_SENS" input
 			(at 57.15 72.39 90)
 			(uuid "73ef47a0-d797-4374-bf73-768275518ade")
 			(effects

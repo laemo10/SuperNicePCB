@@ -2365,7 +2365,7 @@
 		)
 		(uuid "46845202-6a8c-4448-8ff1-d2cdaac34277")
 	)
-	(hierarchical_label "+3.3V_Sensors"
+	(hierarchical_label "3V3_SENS"
 		(shape input)
 		(at 101.6 78.74 90)
 		(effects

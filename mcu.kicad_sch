@@ -3634,7 +3634,7 @@
 		)
 		(uuid "18c85fa2-9f52-495e-a2f2-9516211edbc0")
 	)
-	(label "VDD33"
+	(label "3V3_MCU"
 		(at 115.57 34.29 180)
 		(effects
 			(font
@@ -3653,16 +3653,6 @@
 			(justify right bottom)
 		)
 		(uuid "1e0f441c-9230-4d81-be10-6adde3ac804e")
-	)
-	(label "VDD33"
-		(at 181.61 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c89f4a4-e26d-4255-a0a0-22b4bd8deeaf")
 	)
 	(label "IO2"
 		(at 242.57 59.69 180)
@@ -3714,7 +3704,7 @@
 		)
 		(uuid "89cbd5f9-c402-4cf9-be48-0a5d51cd6245")
 	)
-	(label "VDD33"
+	(label "3V3_MCU"
 		(at 55.88 24.13 270)
 		(effects
 			(font
@@ -3999,7 +3989,7 @@
 	)
 	(hierarchical_label "VDD"
 		(shape input)
-		(at 181.61 58.42 180)
+		(at 173.99 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4040,6 +4030,17 @@
 			(justify right)
 		)
 		(uuid "a21d0676-7c69-4eac-bbd8-188ffffc4c77")
+	)
+	(hierarchical_label "3V3_MCU"
+		(shape input)
+		(at 189.23 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aef2dcc4-1156-432a-aee3-5796e8f2643f")
 	)
 	(hierarchical_label "AC_BCLK"
 		(shape input)

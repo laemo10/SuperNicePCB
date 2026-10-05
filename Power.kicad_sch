@@ -3854,7 +3854,7 @@
 		)
 		(uuid "74a3b763-61c9-4e03-8e72-db9554e2cf9e")
 	)
-	(hierarchical_label "+3.3V_Main"
+	(hierarchical_label "3V3_MCU"
 		(shape output)
 		(at 214.63 48.26 0)
 		(effects
@@ -3865,7 +3865,7 @@
 		)
 		(uuid "7d686b85-ff35-41ee-9380-3f8ce3587faa")
 	)
-	(hierarchical_label "+3.3V_Sensors"
+	(hierarchical_label "3V3_SENS"
 		(shape output)
 		(at 213.36 99.06 0)
 		(effects
@@ -6308,5 +6308,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
