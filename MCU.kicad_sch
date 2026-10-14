@@ -2747,10 +2747,6 @@
 		(uuid "f5493186-4382-4aaa-8c9f-adfb89a0ad53")
 	)
 	(no_connect
-		(at 229.87 124.46)
-		(uuid "8ee6ecd0-9436-448b-bae2-9adc5ff42ea6")
-	)
-	(no_connect
 		(at 232.41 124.46)
 		(uuid "d43a3fbe-153b-4905-901a-913c97eb22bf")
 	)
@@ -2913,6 +2909,16 @@
 			(type default)
 		)
 		(uuid "375ddaa7-6d65-4a6b-882a-a4624ea4d619")
+	)
+	(wire
+		(pts
+			(xy 229.87 113.03) (xy 229.87 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb36b9d-12c6-487d-8e90-365deca345e5")
 	)
 	(wire
 		(pts
@@ -5369,6 +5375,85 @@
 			(project "SuperNicePCB"
 				(path "/794e52b0-48ac-4476-a221-597be743d898/8b6214c5-3aae-496d-ad7a-cdfbdf29ab69"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 229.87 113.03 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86f4771d-c3af-477b-b8b1-e736d90ab49c")
+		(property "Reference" "#PWR013"
+			(at 236.22 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 113.0299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 229.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 229.87 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71bbfd48-b17e-45e0-96e7-08d2b06cd4db")
+		)
+		(instances
+			(project "SuperNicePCB"
+				(path "/794e52b0-48ac-4476-a221-597be743d898/8b6214c5-3aae-496d-ad7a-cdfbdf29ab69"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
