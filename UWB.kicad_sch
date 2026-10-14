@@ -2608,6 +2608,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5299931"
+			(at 140.97 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "85a6fe65-93e7-4e2c-94bb-abde015ad253")
 		)
@@ -2766,6 +2777,17 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 100.33 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C13167"
 			(at 100.33 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2970,6 +2992,17 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 81.28 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 81.28 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3340,6 +3373,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 91.44 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "97efb0a2-af7c-49fa-8be2-ac290b671a6b")
 		)
@@ -3520,6 +3564,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C13167"
+			(at 173.99 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "36669065-d846-4b67-83c7-c220151a7252")
 		)
@@ -3614,6 +3669,17 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 101.6 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1713"
 			(at 101.6 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -3750,6 +3816,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14675"
+			(at 177.8 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0f9808fe-bccd-4254-99cd-50f3c1b85316")
 		)
@@ -3852,6 +3929,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5139863"
+			(at 193.04 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "78ca8ab9-e2f2-4f15-ad1a-d872cdf49d58")
 		)
@@ -3944,6 +4032,17 @@
 			)
 		)
 		(property "Manufacturer" "KENTO"
+			(at 87.63 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2289"
 			(at 87.63 114.3 0)
 			(hide yes)
 			(show_name no)

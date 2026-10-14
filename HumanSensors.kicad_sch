@@ -3826,6 +3826,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C37897213"
+			(at 217.17 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8e80e2d8-7322-4d71-b58f-287dc1ba10cc")
 		)
@@ -3948,6 +3959,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C114881"
+			(at 90.17 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b685f3e2-7ecf-4f9a-8506-2d829f5ef9ed")
 		)
@@ -4055,6 +4077,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1489"
+			(at 66.04 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "efc2413b-d7f6-4920-b3c2-9313791303cf")
 		)
@@ -4147,6 +4180,17 @@
 			)
 		)
 		(property "Manufacturer" "Sensirion(瑞士盛思锐)"
+			(at 213.36 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2848306"
 			(at 213.36 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4269,6 +4313,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1489"
+			(at 194.31 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2c32de4b-389c-4259-850f-8b40fb920546")
 		)
@@ -4362,6 +4417,17 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 227.33 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 227.33 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4476,6 +4542,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1489"
+			(at 76.2 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "48e6a54b-6058-4d1f-acf3-4fc79d97e50e")
 		)
@@ -4570,6 +4647,17 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 179.07 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
 			(at 179.07 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4681,6 +4769,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C4109"
+			(at 201.93 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "277969e4-3f5c-44d5-92af-a20ef0a26337")
 		)
@@ -4775,6 +4874,17 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO(国巨)"
+			(at 105.41 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C14675"
 			(at 105.41 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -4966,6 +5076,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C3037696"
+			(at 102.87 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bbeb91c5-60ec-42de-aaa7-8cf80b0bc9ef")
 		)
@@ -5125,6 +5246,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5656610"
+			(at 83.82 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "882a0cc3-1094-4292-8633-882e6524050d")
 		)
@@ -5241,6 +5373,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1705"
+			(at 194.31 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b2a7205-864b-445c-9564-c870ed5f5d08")
 		)
@@ -5345,6 +5488,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C1525"
+			(at 95.25 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8c2d7069-a940-48dd-aaf8-58e9a4d4a16f")
 		)
@@ -5438,6 +5592,17 @@
 			)
 		)
 		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 201.93 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1489"
 			(at 201.93 113.03 0)
 			(hide yes)
 			(show_name no)
