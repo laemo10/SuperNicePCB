@@ -142,6 +142,14 @@
           ""
         ],
         [
+          "clearance|88230102|143410090|dec03821-2972-4d37-ad75-d58ca333c2bb|ec6984cf-1f99-4938-b256-649c62093a4d",
+          ""
+        ],
+        [
+          "clearance|93629872|144709884|5b476db0-1df3-4ff2-94cf-a8506642ff48|5a431844-b273-49ff-924c-1cba51df1216",
+          ""
+        ],
+        [
           "drill_out_of_range|133540000|132490000|0bfe938d-ff2a-43fb-95d5-669709211f90|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -287,7 +295,7 @@
         "min_track_width": 0.15,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -303,6 +311,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -314,6 +323,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -325,6 +335,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -670,8 +681,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "Power",

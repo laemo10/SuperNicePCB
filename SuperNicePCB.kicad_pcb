@@ -19839,6 +19839,32 @@
 		(layer "Edge.Cuts")
 		(uuid "318a3de4-a370-4148-b96c-c372e7fc49e5")
 	)
+	(gr_text "ECAM Engeneering"
+		(at 101.5 150.75 0)
+		(layer "F.SilkS")
+		(uuid "d4a6e10c-0628-423e-bfe4-8d82dfa04ca4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "M.V.L.L"
+		(at 106 148.25 0)
+		(layer "F.SilkS")
+		(uuid "8e8f0096-97ba-4c0e-87d7-fe09f636dee5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TEMP_SDA"
 		(at 107 125 180)
 		(layer "B.SilkS")
@@ -20341,82 +20367,6 @@
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "In2.Cu")
-		(uuid "0c9e5d27-3f30-48dc-b779-446569ad04b1")
-		(pts
-			(xy 73 50) (xy 173 50)
-		)
-		(height -2)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "100"
-			(at 123 46.2 0)
-			(layer "In2.Cu")
-			(uuid "0c9e5d27-3f30-48dc-b779-446569ad04b1")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "In2.Cu")
-		(uuid "4db623a3-4b81-43c9-892c-4732cab3b2bd")
-		(pts
-			(xy 73 50) (xy 73 150)
-		)
-		(height -7)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "100"
-			(at 64.2 100 90)
-			(layer "In2.Cu")
-			(uuid "4db623a3-4b81-43c9-892c-4732cab3b2bd")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
 		)
 	)
 	(segment
@@ -27638,7 +27588,7 @@
 				(xy 126.511847 114.04258) (xy 126.51185 114.042578) (xy 126.669633 113.962184) (xy 126.680634 113.954189)
 				(xy 126.680635 113.954188) (xy 126.082047 113.3556) (xy 126.126816 113.3556) (xy 126.217256 113.331366)
 				(xy 126.298343 113.28455) (xy 126.36455 113.218343) (xy 126.411366 113.137256) (xy 126.4356 113.046816)
-				(xy 126.4356 113.002046) (xy 127.034189 113.600635) (xy 127.034189 113.600634) (xy 127.042184 113.589633)
+				(xy 126.4356 113.002046) (xy 127.034188 113.600635) (xy 127.034189 113.600634) (xy 127.042184 113.589633)
 				(xy 127.122578 113.43185) (xy 127.12258 113.431847) (xy 127.177298 113.263439) (xy 127.205 113.088544)
 				(xy 127.205 112.911455) (xy 127.177298 112.73656) (xy 127.12258 112.568152) (xy 127.122579 112.568149)
 				(xy 127.042185 112.410368) (xy 127.034189 112.399364) (xy 126.4356 112.997953) (xy 126.4356 112.953184)

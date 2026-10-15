@@ -2914,7 +2914,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 84.328 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3285,7 +3285,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 94.488 97.536 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3613,7 +3613,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 105.41 97.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
