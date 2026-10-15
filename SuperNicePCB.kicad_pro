@@ -146,7 +146,7 @@
           ""
         ],
         [
-          "clearance|93629872|144709884|5b476db0-1df3-4ff2-94cf-a8506642ff48|5a431844-b273-49ff-924c-1cba51df1216",
+          "clearance|93829848|143409912|5a431844-b273-49ff-924c-1cba51df1216|5b476db0-1df3-4ff2-94cf-a8506642ff48",
           ""
         ],
         [
@@ -195,18 +195,6 @@
         ],
         [
           "drill_out_of_range|136340000|133890000|13d5df65-60cd-4b21-8ed1-314a68ecbe55|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_edge_clearance|86460000|151500000|318a3de4-a370-4148-b96c-c372e7fc49e5|859af8a3-42d5-4e3d-b044-23ec967e2977",
-          ""
-        ],
-        [
-          "silk_edge_clearance|95400000|151500000|318a3de4-a370-4148-b96c-c372e7fc49e5|b076ecbf-1b7d-4a27-9607-7229c3ba48f6",
-          ""
-        ],
-        [
-          "silk_edge_clearance|95400000|151620000|318a3de4-a370-4148-b96c-c372e7fc49e5|4c871f77-9972-46b1-8aa2-df356f3ce51c",
           ""
         ]
       ],
@@ -311,7 +299,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -323,7 +310,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -335,7 +321,6 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
-          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -681,8 +666,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": {},
-    "netclass_assignments": {},
+    "net_colors": null,
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -702,7 +687,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/vince/Desktop/Prova/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
